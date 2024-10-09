@@ -45,7 +45,7 @@ public:
 				break;
 			}
 			else {
-				std::cout << "Invalid Valued. Try to input an valid number between " << numbersFromVector[0] << "-" << numbersFromVector[1]<<"\n";
+				std::cout << "Invalid Value. Try to input an valid number between " << numbersFromVector[0] << "-" << numbersFromVector[1]<<"\n";
 				std::cin.clear();
 				std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 			}
